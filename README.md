@@ -37,6 +37,7 @@ It also supports LDAP (Active Directory or OpenLDAP) as authentication provider.
 ## Setup
 Make sure that your host system has at least one WireGuard interface (for example wg0) available. 
 If you did not start up a WireGuard interface yet, take a look at [wg-quick](https://manpages.debian.org/unstable/wireguard-tools/wg-quick.8.en.html) in order to get started.
+UPD: Generate cert and key for nginx [digitalocean-doc](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-18-04)
 
 ### Docker
 The easiest way to run WireGuard Portal is to use the Docker image provided.
